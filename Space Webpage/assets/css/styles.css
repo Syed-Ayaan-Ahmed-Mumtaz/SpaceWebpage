@@ -30,7 +30,13 @@
 }
 
  /* =============== Responsive Typography =============== */
-
+@media screen and (min-width: 1150px) {
+  :root {
+    --biggest-font-size: 5.5rem;
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    
 /* =============== BASE =============== */
 * {
   box-sizing: border-box;
