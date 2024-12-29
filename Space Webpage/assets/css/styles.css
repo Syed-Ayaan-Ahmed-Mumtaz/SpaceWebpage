@@ -77,6 +77,66 @@ img{
 }
   
 /* --REUSABLE CSS CLASSES-- */
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title {
+  font-size: var(--big-font-size);
+  font-family: var(--second-font);
+  font-weight: initial;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section__title span{
+  display: block;
+  background: var(--third-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.main {
+  overflow: hidden;
+}
+
+/* =============== HEADER & NAV =============== */
+
+
+/* Show menu */
+
+
+/* Add Blur Header */
+
+
+/* Active Link */
+
+
+/* =============== HOME =============== */
+
+
+/* =============== BUTTON =============== */
+
+
+/* =============== TRAVEL =============== */
+
+
+/* =============== 
+
+
+
+
 
 
 
