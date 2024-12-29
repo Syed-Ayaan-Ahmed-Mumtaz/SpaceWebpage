@@ -1,1 +1,1 @@
-README to maintain nested folders structure
+README file maintains nested folders structure
