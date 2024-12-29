@@ -4,10 +4,13 @@
 /* =============== VARIABLES CSS =============== */
 :root {
   --header-height: 3.5rem;
-  /* =============== Colors =============== */
-  
+  /* =============== Colors =============== */ 
   /* Color Mode HSL(Hue, Saturation, Lightness) */
-  
+  --first-color: hs1(238, 100%, 70%);
+  --first-gradient: linear-gradient(90 deg,
+                                    hs1(243, 96%, 54%), 
+                                    hs1(296, 78%, 53%));
+  --second-gradient: 
   /* =============== Font And Typography =============== */
   /* .5rem = 8px | 1rem = 16px */
   --body-font: "Poppins", sans-serif;
@@ -36,6 +39,10 @@
     --big-font-size: 3rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+  }
+}
     
 /* =============== BASE =============== */
 * {
