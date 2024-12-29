@@ -164,176 +164,172 @@ img{
 
 
 /* =============== EXPLORE =============== */
-explore__container{
+.explore__container {
     row-gap: 3rem;
 }
-.explore__data{
+.explore__data {
     position: relative;
 }
-.explore__planet{
+.explore__planet {
     width: 50px;
     position: absolute;
     top: 3rem;
     right: 0;
 }
-.explore__description{
+.explore__description {
     text-align: center;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
 }
-.explore__info{
+.explore__info {
     display: flex;
     justify-content: center;
     column-gap: 3rem;
 }
-.explore__info-title{
+.explore__info-title {
     font-size: var(--normal-font-size);
-
 }
-.explore__info-number{
+.explore__info-number {
     font-size: var(--h1-font-size);
-    font-family:var(--second-font);
-    background:(--second-gradient);
-    background clip: text;
+    font-family: var(--second-font);
+    background: var(--second-gradient);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
-.explore__info-number span{
-font-size: var(--small-font-size);
+.explore__info-number span {
+    font-size: var(--small-font-size);
 }
-.explore__img{
+.explore__img {
     width: 320px;
     justify-self: center;
 }
-/*====HISTORY===========*/
-.history{
-    position relative;
-}
-.history__containerr{
+
+/* ==== HISTORY ==== */
+.history {
     position: relative;
-    row-gap:2.5rem;
+}
+.history__container {
+    position: relative;
+    row-gap: 2.5rem;
     grid-template-columns: 265px;
     justify-content: center;
-
 }
-.history__card{
+.history__card {
     text-align: center;
 }
-.history__img{
+.history__img {
     width: 150px;
-    margin: 0 auto .75rem;
+    margin: 0 auto 0.75rem;
 }
-.history__description span{
+.history__description span {
     color: var(--first-color);
-    font-weight:var(--font-semi-bold);
+    font-weight: var(--font-semi-bold);
 }
 .history__planet-1,
-.history__planet-2{
-position:absolute;
+.history__planet-2 {
+    position: absolute;
 }
-.history__planet-1{
+.history__planet-1 {
     width: 250px;
     top: 10rem;
     left: -8rem;
 }
-.history__planet-2{
+.history__planet-2 {
     width: 150px;
     right: -5rem;
     bottom: 6rem;
 }
-/*=============CONTACT=========================*/
-.contact__container{
-    padding-bottom:2rem;
+
+/* ==== CONTACT ==== */
+.contact__container {
+    padding-bottom: 2rem;
 }
-.contact__form{
+.contact__form {
     display: grid;
     row-gap: 1rem;
 }
-.contact__input{
+.contact__input {
     width: 100%;
     background-color: var(--body-color);
     border: 2px solid var(--border-color);
     padding: 1rem;
     color: var(--white-color);
 }
-.contact__form butto{
+.contact__form button {
     cursor: pointer;
 }
-/*======================FOOTER==================*/
-.footer{
+
+/* ==== FOOTER ==== */
+.footer {
     overflow: hidden;
 }
-.footer__container{
+.footer__container {
     position: relative;
-    row-gap:4.5rem;
+    row-gap: 4.5rem;
     padding-block: 2rem;
 }
 .footer__planet-1,
-.footer__planet-2{
+.footer__planet-2 {
     position: absolute;
 }
-.footer__planet-1{
+.footer__planet-1 {
     width: 200px;
     left: -6.5rem;
     bottom: -4.5rem;
 }
-.footer__planet-2{
+.footer__planet-2 {
     width: 50px;
     top: 5.5rem;
     right: 0;
 }
-.footer__content{
+.footer__content {
     row-gap: 2.5rem;
 }
-.footer__links{
+.footer__links {
     display: flex;
     column-gap: 2rem;
-    justify-content:center;
+    justify-content: center;
 }
-.footer__link{
-    color:var(--white-color);
+.footer__link {
+    color: var(--white-color);
     font-weight: var(--font-semi-bold);
-    transition: color   .4s;
-
+    transition: color 0.4s;
 }
-.footer__link:hover{
+.footer__link:hover {
     color: var(--first-color);
-
 }
-.footer__social{
+.footer__social {
     display: flex;
     column-gap: 1rem;
     justify-content: center;
 }
-.footer__social-link{
-    display:inline-flex;
+.footer__social-link {
+    display: inline-flex;
     background: var(--third-gradient);
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 1.5rem;
-    padding: .25rem;
-    transition:box-shadow  .4s;
-
+    padding: 0.25rem;
+    transition: box-shadow 0.4s;
 }
-.footer__social-link: hover{
-    box-shadow: 0 8px 32px hsla(25, 96%, 55%, .6);
+.footer__social-link:hover {
+    box-shadow: 0 8px 32px hsla(25, 96%, 55%, 0.6);
 }
-.footer__copy{
+.footer__copy {
     text-align: center;
     z-index: var(--z-tooltip);
     color: var(--white-color);
     font-size: var(--small-font-size);
 }
-/*===============SCROLL BAR===================*/
-::-website-scrollbar{
-    width: .6rem;
+
+/* ==== SCROLLBAR ==== */
+::-webkit-scrollbar {
+    width: 0.6rem;
     background-color: hsl(238, 60%, 20%);
 }
-
-::-website-scrollbar-thumb{
- 
+::-webkit-scrollbar-thumb {
     background-color: hsl(238, 50%, 30%);
 }
-::-website-scrollbar-thumb:hover{
- 
+::-webkit-scrollbar-thumb:hover {
     background-color: hsl(238, 40%, 40%);
 }
 
