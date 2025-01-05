@@ -5,6 +5,7 @@ Planet
 .nav__link
 Home - Travel - Exploration - History
 
+
 ========== HOME ==========
 .home__title
 <span>WELCOME</span>
