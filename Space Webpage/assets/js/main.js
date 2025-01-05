@@ -5,14 +5,16 @@ const navMenu = document.getElementById('nav-menu'),
 
 /* Menu show */
 if(navToggle){
-    navToggle.addEventListener('click', () =>){
+    navToggle.addEventListener('click', () =>{ 
         navMenu.classList.add('show-menu')
     })
 }
 
 /* Menu hidden */
 if(navClose){
-    navClose.addEventListener('click', () =>){}
+    navClose.addEventListener('click', () =>{
+		navMenu.classList.remove('show-menu')
+	})
 }
 
 /*=============== REMOVE MENU MOBILE ===============*/
@@ -34,7 +36,7 @@ const blurHeader = () => {
 }
 
 /*=============== SWIPER PLANETS ===============*/ 
-const swiperTravel = new Swiper('.travel swiper', {
+const swiperTravel = new Swiper('.travel__swiper', {
    loop: true,
    spaceBetween: '32',
    grabCursor: true,
